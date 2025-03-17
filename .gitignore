@@ -167,8 +167,25 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# Ignore large DBF files
+Demographic Queries/*.DBF
+Processed_Results/*.DBF
+Petrochem Union Pieces 2025/*.dbf
+
+# Ignore ZIP files
+Demographic Queries/*.zip
+Petrochem Union Pieces 2025.zip
+
+# Ignore all DBF files
+*.DBF
+*.dbf
+
+
 # Ruff stuff:
 .ruff_cache/
 
 # PyPI configuration file
 .pypirc
+
+*.DBF
+*.dbf
